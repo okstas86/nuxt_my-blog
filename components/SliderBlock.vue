@@ -46,7 +46,7 @@ export default {
 .container {
 	display: flex;
 	align-items: center;
-	margin: 1vh;
+	margin: 1vw;
 
 	.arrow {
 		width: 10vw;
@@ -75,7 +75,7 @@ export default {
 	}
 
 	.slide-counter {
-		margin: 20px 0;
+		margin: 2vw 0;
 	}
 }
 </style>

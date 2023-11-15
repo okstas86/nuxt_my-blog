@@ -18,23 +18,12 @@ export default {
 
 <style land="scss" scoped>
 .container {
-	margin: 50px 100px;
+	margin: 5vw 10vw;
 	display: flex;
 	flex-direction: column;
 }
 .image-caption {
-	margin-left: 600px;
-}
-
-@media (max-width: 768px) {
-	.container {
-		margin: 20px;
-	}
-
-	.image-caption {
-		font-size: 10px;
-		margin-left: 0;
-		text-align: center;
-	}
+	margin-left: 60vw;
+	font-size: 1.4vw;
 }
 </style>

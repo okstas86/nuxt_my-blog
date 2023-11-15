@@ -107,7 +107,7 @@ export default {
 
 		.wrap {
 			width: 100%;
-			margin-bottom: 3vh;
+			margin-bottom: 3vw;
 			margin: 1vw 5vw;
 			img {
 				margin: 5vw;
@@ -128,7 +128,7 @@ export default {
 					margin-left: 3vw;
 					input {
 						width: 80%;
-						margin-bottom: 20px;
+						margin-bottom: 2vw;
 						font-size: 2vw;
 					}
 				}

@@ -58,7 +58,7 @@ export default {
 
 	h2 {
 		font-size: 1.4vw;
-		margin-bottom: 5vh;
+		margin-bottom: 4vw;
 	}
 
 	p {

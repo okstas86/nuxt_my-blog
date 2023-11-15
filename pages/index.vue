@@ -45,73 +45,45 @@ export default defineComponent({
 .container {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 50px;
+	gap: 5vw;
 	margin: 0 6vw 6vw;
-}
 
-.article-group {
-	width: 100%;
-	display: flex;
-	justify-content: space-around;
-}
-.wrap {
-	width: 28vw;
-	font-size: 2vw;
-}
-.article-image {
-	width: 27vw;
-	height: 50vh;
-}
-.article-title {
-	font-size: 1vw;
-}
-.btn-read {
-	width: 13vw;
-	height: 8vh;
-	background-color: #1b1b1b;
-	border: #1b1b1b;
-	color: #fff;
-	text-decoration: none;
-	font-size: 3vh;
-	font-weight: 400;
-}
-
-@media (max-width: 1024px) {
-	.wrap {
-		width: 80%;
+	.article-group {
+		width: 100%;
+		display: flex;
 	}
 
-	.article-image {
+	.wrap {
 		width: 28vw;
-		height: 20vw;
-		margin: 1vw;
-		object-fit: cover;
-	}
-	.article-title {
-		font-size: 1vh;
-	}
-
-	.btn-read {
-		width: 12vh;
-		height: 4vh;
-		font-size: 1.7vw;
-	}
-}
-@media (max-width: 430px) {
-	.wrap {
-		width: 80%;
+		font-size: 2vw;
 	}
 
 	.article-image {
-		width: 25vw;
-		height: 10vh;
-		margin: 1vh;
+		width: 27vw;
+		height: 25vw;
+	}
+
+	.article-title {
+		font-size: 1vw;
+
+		@media (max-width: 768px) {
+			font-size: 1.2vw;
+		}
+
+		@media (max-width: 460px) {
+			font-size: 1.4vw;
+		}
 	}
 
 	.btn-read {
-		width: 7vh;
-		height: 2vh;
-		font-size: 2vw;
+		width: 13vw;
+		height: 4vw;
+		background-color: #1b1b1b;
+		border: #1b1b1b;
+		color: #fff;
+		text-decoration: none;
+		font-size: 1.3vw;
+		font-weight: 400;
 	}
 }
 </style>

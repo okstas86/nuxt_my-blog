@@ -33,7 +33,7 @@ export default {}
 #footer {
 	width: 100%;
 	height: auto;
-	padding: 30px 0;
+	padding: 3vw 0;
 
 	.wrap {
 		width: 80%;
@@ -47,7 +47,7 @@ export default {}
 
 			.footer-top-left {
 				width: 50%;
-				margin-bottom: 20px;
+				margin-bottom: 1vw;
 
 				.left-text {
 					font-weight: 400;
@@ -69,12 +69,14 @@ export default {}
 				flex-direction: column;
 
 				.email {
+					font-size: 1.4vw;
 					font-weight: bold;
-					margin-bottom: 10px;
+					margin-bottom: 1vw;
 					padding-left: 20vw;
 				}
 				.email-title {
 					padding-left: 20vw;
+					font-size: 1.4vw;
 				}
 				.social-media {
 					display: flex;
@@ -89,44 +91,6 @@ export default {}
 						}
 					}
 				}
-			}
-		}
-	}
-}
-@media (max-width: 768px) {
-	#footer {
-		margin-top: -5vw;
-		.wrap {
-			width: 100%;
-		}
-
-		.footer-top {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-
-			.footer-top-left {
-				width: 100%;
-				font-size: 0.1vh;
-
-				.left-text {
-					font-size: 11vw;
-				}
-			}
-
-			.footer-top-right {
-				width: 100%;
-				margin-left: -150px;
-				font-size: 1vh;
-				margin-top: 0;
-			}
-			.email {
-				margin-top: 0;
-				font-size: 1vw;
-			}
-			.email-title {
-				margin-top: 0;
-				font-size: 1vw;
 			}
 		}
 	}

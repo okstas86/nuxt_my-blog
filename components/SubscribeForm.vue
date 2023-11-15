@@ -18,7 +18,7 @@ export default {
 <style lang="scss" scoped>
 .footer-bottom {
 	margin-top: 1vw;
-	height: 15vh;
+	height: 8vw;
 	background-color: #1b1b1b;
 	display: flex;
 	justify-content: space-between;
@@ -26,11 +26,11 @@ export default {
 	color: white;
 
 	.footer-form {
-		width: 50vw;
+		width: 70%;
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 		align-items: center;
-		margin-right: 20px;
+		margin-right: 2vw;
 
 		.email-title {
 			color: #8d959c;
@@ -41,14 +41,16 @@ export default {
 			border: none;
 			outline: none;
 			background-color: transparent;
-			border-bottom: 1px solid #8d959c;
+			border-bottom: 0.1vw solid #8d959c;
+			font-size: 1.4vw;
 		}
 
 		button {
-			width: 20vh;
-			height: 46px;
+			width: 16vw;
+			height: 4vw;
 			background-color: #3657d3;
 			border: none;
+			font-size: 1.2vw;
 			color: white;
 			cursor: pointer;
 
@@ -64,52 +66,22 @@ export default {
 	font-size: 1.2vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 	.footer-bottom {
 		margin-top: 4vw;
-		height: 10vh;
-
-		.footer-form {
-			width: 100%;
-			input {
-				width: 30vw;
-				font-size: 2vw;
-			}
-
-			button {
-				width: 15vw;
-				height: 3vw;
-				font-size: 1vw;
-			}
-		}
-	}
-	.footer-form-text {
-		margin-left: 2vw;
-		font-size: 1.5vw;
 	}
 }
 
 @media (max-width: 460px) {
-	.footer-bottom {
-		height: 5vh;
-
-		.footer-form {
-			width: 100%;
-			input {
-				width: 30vw;
-				font-size: 2vw;
-			}
-
-			button {
-				width: 15vw;
-				height: 3vw;
-				font-size: 1vw;
-			}
-		}
+	button {
+		height: 4vw;
+		font-size: 1vw;
 	}
+
 	.footer-form-text {
 		margin-left: 2vw;
 		font-size: 1vw;
+		width: 40%;
 	}
 }
 </style>
